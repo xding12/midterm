@@ -59,7 +59,7 @@ mail($emailTo, $subject, $body, "From: <$emailFrom>");
 
 <main class="full-width">
     <h2>Thank you <?php echo $_POST['name']; ?></h2>
-    <p>Go back to <a href="signup.html">Sign-Up page</a>.</p>
+    <p>Go back to <a href="signup.php">Sign-Up page</a>.</p>
 </main>
 
 </div><!--.container-->

@@ -1,28 +1,11 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Midterm Project - Market Updates</title>
-	<link rel="stylesheet" href="css/styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Domine:700|Open+Sans" rel="stylesheet">
-</head>
+<?php $title = 'Midterm Project - Market Updates'; ?>
+<?php include "inc/top.inc"; ?>	
+
 
 <body class="container2">
 <header class="updates">
 	<h1>Weekly Market Updates</h1>
-	<nav class="menu">
-    <ul>
-        <li>
-            <a href="index.html">Main</a>
-        </li>
-        <li>
-            <a href="market.html">Weekly Market Updates</a>
-        </li>
-        <li>
-            <a href="signup.html">Sign Up</a>
-        </li>
-    </ul>
-	</nav>
+	<?php include "inc/nav.inc"; ?>
 </header>
 
 
@@ -106,7 +89,4 @@
 </div>
 
 
-
-
-</body>
-</html>
+<?php include "inc/bottom.inc"; ?>	

@@ -34,11 +34,18 @@ form{
    Layout section
    *************************** */
 
-.container1, .container2, .container3 {
-	margin: 0 auto;
-	width: 90%;
-	max-width: 1000px;
+.container1, .container2, .container3{
+  margin: 0 auto;
+  width: 90%;
   line-height: 1.5em;
+}
+
+.container1, .container2{
+  max-width: 1000px;
+}
+
+.container3{
+  max-width: 750px;
 }
 
 .container1{
@@ -60,8 +67,8 @@ form{
   justify-content: space-between;
 }
 
-.div3{
-  margin-top: 40px;
+.div1, .div3{
+  margin-top: 30px;
 }
 
 .div1 .content1, .div2 .content2, .div3 .content3, .div1 .link1, .div2 .link2, .div3 .link3{
@@ -89,6 +96,9 @@ figure{
   margin-right: 10px;
 }
 
+
+
+
 /* ***************************
    Module section
    *************************** */
@@ -101,18 +111,20 @@ figure{
   font-size: xx-large;
 }
 
+.primary a, .updates a, .signup a{
+  text-decoration: none;
+}
+
 .div1{
   background-color: antiquewhite;
   border-radius: 10px;
 }
 
 .divcomb{
-  margin-top: 100px;
+  margin-top: 150px;
   background-color: aliceblue;
   border-radius: 10px;
 }
-
-
 
 .menu{
   margin-top: 20px;

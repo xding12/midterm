@@ -5,7 +5,7 @@
 <body class="container1">
 
 	<header class="persistent">
-		<div class="primary">Financial Market</div>
+		<div class="primary"><a href="index.php">Financial Market</a></div>
 		<div><a href="signup.php">Sign-up for a newsletter</a></div>
   	</header>
 
